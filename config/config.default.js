@@ -5,6 +5,14 @@
  * @member Config#sms
  * @property {String} SOME_KEY - some description
  */
-exports.sms = {
-  useAgent: false
+exports.uniSms = {
+  useAgent: true,
+  qc: {
+    accessKeyId: '',
+    secretAccessKey: ''
+  },
+  ali: {
+    accessKeyId: '',
+    secretAccessKey: ''
+  }
 }

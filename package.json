@@ -1,18 +1,20 @@
 {
-  "name": "egg-sms",
-  "version": "1.0.2",
-  "description": "aliyun sms plugin for egg",
+  "name": "egg-uni-sms",
+  "version": "1.0.0",
+  "description": "tencent qcloud sms plugin for egg",
   "eggPlugin": {
-    "name": "sms"
+    "name": "uniSms"
   },
   "keywords": [
     "egg",
-    "eggPlugin",
-    "egg-plugin"
+    "sms",
+    "qcsms",
+    "qcloudsms",
+    "tencent"
   ],
   "dependencies": {
-    "@alicloud/sms-sdk": "^1.0.2",
-    "lodash": "^4.17.4"
+    "@alicloud/sms-sdk": "^1.1.6",
+    "qcloudsms_js": "^0.1.1"
   },
   "devDependencies": {
     "autod": "^3.0.0",
@@ -57,8 +59,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:yolopunk/egg-sms.git"
+    "url": "git+git@github.com:rayosu/egg-sms.git"
   },
-  "author": "yolopunk",
+  "author": "rayosu",
   "license": "MIT"
 }

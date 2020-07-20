@@ -1,5 +1,5 @@
-'use strict'
+'use strict';
 
-const sms = require('./lib/sms')
+module.exports = app => {
 
-module.exports = app => sms(app)
+};
